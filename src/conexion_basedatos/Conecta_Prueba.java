@@ -25,6 +25,7 @@ public class Conecta_Prueba {
             
             //3. Ejecutar la instruccion Sql
             
+            //ResulSet es una tabla virtual donde se almacenan los datos que retorna la consulta SQL
             ResultSet miResultset=miStatement.executeQuery("SELECT * FROM productos");
             
             
@@ -41,8 +42,6 @@ public class Conecta_Prueba {
              
             System.out.println("No conecta ");
              e.printStackTrace();   //muestra la causa del error
-            
-        
         
         }
         
